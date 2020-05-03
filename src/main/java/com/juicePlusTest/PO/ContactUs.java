@@ -111,7 +111,7 @@ public class ContactUs extends DriverMain {
 	public String verifySucessMsg() throws Exception {
 
 		try {
-			//Thread.sleep(4000);
+			Thread.sleep(4000);
 			String myMsg = successMsg.getText();
 			System.out.println("msg is " + myMsg);
 			return myMsg;
