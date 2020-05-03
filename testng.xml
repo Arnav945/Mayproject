@@ -8,8 +8,8 @@
   
   <classes>
 
-			<class name="com.juicePlusTest.TS.ContactUs_TC" />
-			<class name="com.juicePlusTest.TS.ValidCompleteForm_TC" />
+			<class name="com.juicePlusTest.TS.ContactUs_Test" />
+			
 			 
 			
 </classes>

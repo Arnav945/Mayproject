@@ -7,7 +7,7 @@ import com.juicePlusTest.PO.DriverMain;
 
 import junit.framework.Assert;
 
-public class ContactUs_TC extends DriverMain {
+public class ContactUs_Test extends DriverMain {
 
 	@Test
 	public void tapAboutUS() {

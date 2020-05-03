@@ -6,7 +6,7 @@ import com.juicePlusTest.PO.ContactUs;
 
 import junit.framework.Assert;
 
-public class ValidCompleteForm_TC {
+public class ValidCompleteForm_Test {
 	@Test
 	public void submitValidForm() {
 
