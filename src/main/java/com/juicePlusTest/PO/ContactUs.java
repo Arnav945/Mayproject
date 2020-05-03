@@ -118,7 +118,7 @@ public class ContactUs extends DriverMain {
 		} catch (Exception e) {
 			
 			// TODO: handle exception
-			System.out.println("msg is ");
+			//System.out.println("msg is ");
 			return null;
 		}
 
