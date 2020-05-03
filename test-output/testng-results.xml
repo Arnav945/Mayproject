@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34468" started-at="2020-05-03T17:44:39Z" finished-at="2020-05-03T17:45:13Z">
+  <suite name="Suite" duration-ms="42458" started-at="2020-05-03T17:51:12Z" finished-at="2020-05-03T17:51:55Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="34468" started-at="2020-05-03T17:44:39Z" finished-at="2020-05-03T17:45:13Z">
+    <test name="Test" duration-ms="42458" started-at="2020-05-03T17:51:12Z" finished-at="2020-05-03T17:51:55Z">
+      <class name="com.juicePlusTest.TS.ValidCompleteForm_Test">
+        <test-method status="PASS" signature="submitValidForm()[pri:0, instance:com.juicePlusTest.TS.ValidCompleteForm_Test@7d9d1a19]" name="submitValidForm" duration-ms="1169" started-at="2020-05-03T17:51:49Z" finished-at="2020-05-03T17:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitValidForm -->
+        <test-method status="PASS" signature="verifyValidSuccessMsg()[pri:0, instance:com.juicePlusTest.TS.ValidCompleteForm_Test@7d9d1a19]" name="verifyValidSuccessMsg" duration-ms="4174" started-at="2020-05-03T17:51:50Z" finished-at="2020-05-03T17:51:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidSuccessMsg -->
+      </class> <!-- com.juicePlusTest.TS.ValidCompleteForm_Test -->
       <class name="com.juicePlusTest.TS.ContactUs_Test">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.juicePlusTest.TS.ContactUs_Test@5622fdf]" name="launch" is-config="true" duration-ms="31852" started-at="2020-05-03T17:44:39Z" finished-at="2020-05-03T17:45:11Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.juicePlusTest.TS.ContactUs_Test@4883b407]" name="launch" is-config="true" duration-ms="33536" started-at="2020-05-03T17:51:12Z" finished-at="2020-05-03T17:51:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="tapAboutUS()[pri:0, instance:com.juicePlusTest.TS.ContactUs_Test@5622fdf]" name="tapAboutUS" duration-ms="1527" started-at="2020-05-03T17:45:11Z" finished-at="2020-05-03T17:45:12Z">
+        <test-method status="PASS" signature="tapAboutUS()[pri:0, instance:com.juicePlusTest.TS.ContactUs_Test@4883b407]" name="tapAboutUS" duration-ms="2705" started-at="2020-05-03T17:51:46Z" finished-at="2020-05-03T17:51:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tapAboutUS -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.juicePlusTest.TS.ContactUs_Test@5622fdf]" name="tearDown" is-config="true" duration-ms="1056" started-at="2020-05-03T17:45:12Z" finished-at="2020-05-03T17:45:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.juicePlusTest.TS.ContactUs_Test@4883b407]" name="tearDown" is-config="true" duration-ms="832" started-at="2020-05-03T17:51:54Z" finished-at="2020-05-03T17:51:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
