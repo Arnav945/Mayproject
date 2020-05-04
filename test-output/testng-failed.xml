@@ -6,10 +6,18 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.juicePlusTest.TS.ContactUs_Test">
+        <methods>
+          <include name="launch"/>
+          <include name="tearDown"/>
+          <include name="tapAboutUS"/>
+        </methods>
+      </class> <!-- com.juicePlusTest.TS.ContactUs_Test -->
       <class name="com.juicePlusTest.TS.InvalidIncompleteForm_Test">
         <methods>
           <include name="verifyInvalidFormError"/>
           <include name="launch"/>
+          <include name="submitInvalidForm"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.juicePlusTest.TS.InvalidIncompleteForm_Test -->

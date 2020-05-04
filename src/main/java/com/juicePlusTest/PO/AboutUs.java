@@ -19,9 +19,7 @@ public class AboutUs extends DriverMain {
 
 	}
 	
-	
-
-	public boolean tapOnAboutUS() {
+		public boolean tapOnAboutUS() {
 
 		try {
 			waitFor();
