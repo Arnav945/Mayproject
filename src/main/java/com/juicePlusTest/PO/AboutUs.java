@@ -16,6 +16,7 @@ public class AboutUs extends DriverMain {
 	public static void waitFor() {
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 
 	}
 	
